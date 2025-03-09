@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="500" y="30" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">Stock Price Prediction System Architecture</text>
+  
+  <!-- Data Collection & Ingestion -->
+  <rect x="50" y="80" width="200" height="140" rx="10" fill="#e1f5fe" stroke="#01579b" stroke-width="2"/>
+  <text x="150" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Data Collection &amp; Ingestion</text>
+  
+  <rect x="70" y="115" width="160" height="25" rx="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="150" y="132" font-family="Arial" font-size="12" text-anchor="middle">Market Data APIs</text>
+  
+  <rect x="70" y="150" width="160" height="25" rx="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="150" y="167" font-family="Arial" font-size="12" text-anchor="middle">Alternative Data Sources</text>
+  
+  <rect x="70" y="185" width="160" height="25" rx="5" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+  <text x="150" y="202" font-family="Arial" font-size="12" text-anchor="middle">Data Ingestion Pipeline</text>
+  
+  <!-- Data Processing -->
+  <rect x="300" y="80" width="200" height="140" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="400" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Data Processing Pipeline</text>
+  
+  <rect x="320" y="115" width="160" height="25" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="400" y="132" font-family="Arial" font-size="12" text-anchor="middle">Data Cleaning</text>
+  
+  <rect x="320" y="150" width="160" height="25" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="400" y="167" font-family="Arial" font-size="12" text-anchor="middle">Feature Engineering</text>
+  
+  <rect x="320" y="185" width="160" height="25" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <text x="400" y="202" font-family="Arial" font-size="12" text-anchor="middle">Data Storage</text>
+  
+  <!-- Model Operations -->
+  <rect x="550" y="80" width="200" height="140" rx="10" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+  <text x="650" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Model Operations</text>
+  
+  <rect x="570" y="115" width="160" height="25" rx="5" fill="#ffe0b2" stroke="#f57c00" stroke-width="1"/>
+  <text x="650" y="132" font-family="Arial" font-size="12" text-anchor="middle">Model Training</text>
+  
+  <rect x="570" y="150" width="160" height="25" rx="5" fill="#ffe0b2" stroke="#f57c00" stroke-width="1"/>
+  <text x="650" y="167" font-family="Arial" font-size="12" text-anchor="middle">Model Registry</text>
+  
+  <rect x="570" y="185" width="160" height="25" rx="5" fill="#ffe0b2" stroke="#f57c00" stroke-width="1"/>
+  <text x="650" y="202" font-family="Arial" font-size="12" text-anchor="middle">Model Monitoring</text>
+  
+  <!-- Insight Delivery -->
+  <rect x="800" y="80" width="170" height="140" rx="10" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="885" y="100" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Insight Delivery</text>
+  
+  <rect x="820" y="115" width="130" height="25" rx="5" fill="#b2ebf2" stroke="#0097a7" stroke-width="1"/>
+  <text x="885" y="132" font-family="Arial" font-size="12" text-anchor="middle">Web Dashboard</text>
+  
+  <rect x="820" y="150" width="130" height="25" rx="5" fill="#b2ebf2" stroke="#0097a7" stroke-width="1"/>
+  <text x="885" y="167" font-family="Arial" font-size="12" text-anchor="middle">API Endpoints</text>
+  
+  <rect x="820" y="185" width="130" height="25" rx="5" fill="#b2ebf2" stroke="#0097a7" stroke-width="1"/>
+  <text x="885" y="202" font-family="Arial" font-size="12" text-anchor="middle">Automated Reports</text>
+  
+  <!-- Data Flow Arrows -->
+  <path d="M250,150 H300" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M500,150 H550" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M750,150 H800" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Storage Systems -->
+  <rect x="50" y="280" width="165" height="90" rx="10" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+  <text x="132.5" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Raw Data Storage</text>
+  
+  <rect x="70" y="320" width="125" height="40" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="132.5" y="345" font-family="Arial" font-size="12" text-anchor="middle">Data Lake</text>
+  
+  <rect x="300" y="280" width="165" height="90" rx="10" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+  <text x="382.5" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Processed Data</text>
+  
+  <rect x="320" y="320" width="125" height="40" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="382.5" y="345" font-family="Arial" font-size="12" text-anchor="middle">Data Warehouse</text>
+  
+  <rect x="550" y="280" width="165" height="90" rx="10" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+  <text x="632.5" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Model Registry</text>
+  
+  <rect x="570" y="320" width="125" height="40" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="632.5" y="345" font-family="Arial" font-size="12" text-anchor="middle">Model Storage</text>
+  
+  <rect x="800" y="280" width="165" height="90" rx="10" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+  <text x="882.5" y="300" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Serving Infrastructure</text>
+  
+  <rect x="820" y="320" width="125" height="40" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="882.5" y="345" font-family="Arial" font-size="12" text-anchor="middle">API Gateway</text>
+  
+  <!-- Orchestration Layer -->
+  <rect x="50" y="420" width="915" height="70" rx="10" fill="#ffebee" stroke="#b71c1c" stroke-width="2"/>
+  <text x="507.5" y="445" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Orchestration Layer</text>
+  <text x="507.5" y="465" font-family="Arial" font-size="12" text-anchor="middle">Workflow Management, Scheduling, Monitoring, and Alerts</text>
+  
+  <!-- Infrastructure -->
+  <rect x="50" y="510" width="915" height="70" rx="10" fill="#e8eaf6" stroke="#1a237e" stroke-width="2"/>
+  <text x="507.5" y="535" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Cloud Infrastructure</text>
+  <text x="507.5" y="555" font-family="Arial" font-size="12" text-anchor="middle">Compute, Storage, Networking, Security, and Scaling</text>
+  
+  <!-- Storage Connections -->
+  <path d="M132.5,220 V280" stroke="#4a148c" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <path d="M382.5,220 V280" stroke="#4a148c" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <path d="M632.5,220 V280" stroke="#4a148c" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <path d="M882.5,220 V280" stroke="#4a148c" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- Arrowhead Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
