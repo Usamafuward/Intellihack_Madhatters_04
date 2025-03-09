@@ -3,13 +3,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
 # For data preprocessing and feature engineering
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split, TimeSeriesSplit
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 # Machine learning models
@@ -17,11 +15,6 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
 import xgboost as xgb
 from lightgbm import LGBMRegressor
-
-# Optional: For plotting interactive charts
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 # 1. Data Loading and Initial Exploration
 def load_and_explore_data(file_path):
